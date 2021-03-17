@@ -8,7 +8,7 @@ class TestgetRepo(unittest.TestCase):
                     'Repository Name: Software-Quality-Assurance-and-Testing-567 Number of commits in Repository: 2',
                     'Repository Name: SSW567_HW04 Number of commits in Repository: 9',
                     'Repository Name: Student-Repository Number of commits in Repository: 23',
-                    'Repository Name: Triangle567 Number of commits in Repository: 11']
+                    'Repository Name: Triangle567 Number of commits in Repository: 12']
 
         self.assertEqual(get_repository_details('Krupali0609'), expected)
 
